@@ -5,21 +5,21 @@ addMissionEventHandler ["Draw3D",
 
 			switch (cursortarget call BIS_fnc_getUnitInsignia) do
 				{
-					case "": {Black_RANKICON = "\black_abzeichen\data\0\keinen.paa"};
-					case "PRIVATE_ARMY": {Black_RANKICON = "\black_abzeichen\data\0\0PVT.paa"};
-					case "PRIVATE_FIRST_CLASS": {Black_RANKICON = "\black_abzeichen\data\0\1PFC.paa"};
-					case "CORPORAL_ARMY": {Black_RANKICON = "\black_abzeichen\data\0\2CPL.paa"};
-					case "SERGEANT_ARMY": {Black_RANKICON = "\black_abzeichen\data\0\3SGT.paa"};
-					case "STAFF_SERGEANT": {Black_RANKICON = "\black_abzeichen\data\0\4SSG.paa"};
-					case "SERGEANT_FIRST_CLASS": {Black_RANKICON = "\black_abzeichen\data\0\5SFC.paa"};
-					case "MASTER_SERGEANT": {Black_RANKICON = "\black_abzeichen\data\0\6MSG.paa"};
-					case "SECOND_LIEUTENANT": {Black_RANKICON = "\black_abzeichen\data\0\7LT.paa"};
-					case "FIRST_LIEUTENANT": {Black = "\black_abzeichen\data\0\8LTE.paa"};
-					case "CAPTAIN_ARMY": {Black_RANKICON = "\black_abzeichen\data\0\9CPT.paa"};
-					case "MAJOR_ARMY": {Black_RANKICON = "\black_abzeichen\data\0\10MJR.paa"};
-					case "FIRST_SERGEANT": {Black_RANKICON = "\black_abzeichen\data\0\1SG.paa"};
-					case "LIEUTENANT_COLONEL": {Black_RANKICON = "\black_abzeichen\data\0\11LTC.paa"};
-					case "COLONEL_ARMY": {Black_RANKICON = "\black_abzeichen\data\0\12COL.paa"};
+					case "": {Black_RANKICON = "\black_badge\data\0\keinen.paa"};
+					case "PRIVATE_ARMY": {Black_RANKICON = "\black_badge\data\0\0PVT.paa"};
+					case "PRIVATE_FIRST_CLASS": {Black_RANKICON = "\black_badge\data\0\1PFC.paa"};
+					case "CORPORAL_ARMY": {Black_RANKICON = "\black_badge\data\0\2CPL.paa"};
+					case "SERGEANT_ARMY": {Black_RANKICON = "\black_badge\data\0\3SGT.paa"};
+					case "STAFF_SERGEANT": {Black_RANKICON = "\black_badge\data\0\4SSG.paa"};
+					case "SERGEANT_FIRST_CLASS": {Black_RANKICON = "\black_badge\data\0\5SFC.paa"};
+					case "MASTER_SERGEANT": {Black_RANKICON = "\black_badge\data\0\6MSG.paa"};
+					case "SECOND_LIEUTENANT": {Black_RANKICON = "\black_badge\data\0\7LT.paa"};
+					case "FIRST_LIEUTENANT": {Black = "\black_badge\data\0\8LTE.paa"};
+					case "CAPTAIN_ARMY": {Black_RANKICON = "\black_badge\data\0\9CPT.paa"};
+					case "MAJOR_ARMY": {Black_RANKICON = "\black_badge\data\0\10MJR.paa"};
+					case "FIRST_SERGEANT": {Black_RANKICON = "\black_badge\data\0\1SG.paa"};
+					case "LIEUTENANT_COLONEL": {Black_RANKICON = "\black_badge\data\0\11LTC.paa"};
+					case "COLONEL_ARMY": {Black_RANKICON = "\black_badge\data\0\12COL.paa"};
 					case "BWA3_insignia_00_soldat": {Black_RANKICON = "\bwa3_common\data\insignia\bwa3_patch_rank_00_soldat_ca.paa"};
 					case "BWA3_insignia_01_gefreiter": {Black_RANKICON = "\bwa3_common\data\insignia\bwa3_patch_rank_01_gefreiter_ca.paa"};
 					case "BWA3_insignia_02_obergefreiter": {Black_RANKICON = "\bwa3_common\data\insignia\bwa3_patch_rank_02_obergefreiter_ca.paa"};
@@ -40,11 +40,11 @@ addMissionEventHandler ["Draw3D",
 					case "BWA3_insignia_17_major": {Black_RANKICON = "\bwa3_common\data\insignia\bwa3_patch_rank_17_major_ca.paa"};
 					case "BWA3_insignia_18_oberstleutnant": {Black_RANKICON = "\bwa3_common\data\insignia\bwa3_patch_rank_18_oberstleutnant_ca.paa"};
 					case "BWA3_insignia_19_oberst": {Black_RANKICON = "\bwa3_common\data\insignia\bwa3_patch_rank_19_oberst_ca.paa"};
-					case "Gefreiter_UA": {Black_RANKICON = "\black_abzeichen\data\1\gefreiter_ua.paa"};
-					case "Gefreiter_OA": {Black_RANKICON = "\black_abzeichen\data\1\gefreiter_oa.paa"};
-					case "Fahnenjunker": {Black_RANKICON = "\black_abzeichen\data\1\fahnenjunker.paa"};
-					case "Oberfaehnrich": {Black_RANKICON = "\black_abzeichen\data\1\oberfaehnrich.paa"};
-					case "Faehnrich": {Black_RANKICON = "\black_abzeichen\data\1\faehnrich.paa"};
+					case "Gefreiter_UA": {Black_RANKICON = "\black_badge\data\1\gefreiter_ua.paa"};
+					case "Gefreiter_OA": {Black_RANKICON = "\black_badge\data\1\gefreiter_oa.paa"};
+					case "Fahnenjunker": {Black_RANKICON = "\black_badge\data\1\fahnenjunker.paa"};
+					case "Oberfaehnrich": {Black_RANKICON = "\black_badge\data\1\oberfaehnrich.paa"};
+					case "Faehnrich": {Black_RANKICON = "\black_badge\data\1\faehnrich.paa"};
 				};
 			drawIcon3D [
 					Black_RANKICON,
