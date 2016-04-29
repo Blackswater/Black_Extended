@@ -4,7 +4,7 @@ class CfgFunctions
 	{
 		class Effects
 		{
-			file="\black_badge\functions";
+			file="\black_abzeichen\functions";
 			class moduleRank
 			{
 
