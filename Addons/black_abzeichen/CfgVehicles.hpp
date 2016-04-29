@@ -18,7 +18,7 @@ class CfgVehicles
 	{
 		author="Blackswater";
 		scope=2;
-		icon="\black_abzeichen\data\rank_init_ca.paa";
+		icon="\black_badge\data\rank_init_ca.paa";
 		displayName="$STR_rang_setzen";
 		category="Multiplayer";
 		function="Black_fnc_moduleRank";

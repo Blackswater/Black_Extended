@@ -67,7 +67,7 @@ class DestructionEffects;
 
 class CfgPatches
 {
-	class abzeichen
+	class badge
 	{
 		units[]={};
 		weapons[]={};
@@ -86,7 +86,7 @@ class CfgPatches
 			"Blackswater"
 		};
 		authorUrl="";
-		versionDesc="abzeichen";
+		versionDesc="badge";
 		versionAct="";
 	};
 };

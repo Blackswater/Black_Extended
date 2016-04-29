@@ -2,7 +2,7 @@ class CfgFactionClasses
 {
 	class Black_Rank:
 	{
-    icon = "\black_abzeichen\data\hunters.paa";
+    icon = "\black_badge\data\hunters.paa";
 		displayname="Blackswater";
     priority = 6;
     side = 1;
