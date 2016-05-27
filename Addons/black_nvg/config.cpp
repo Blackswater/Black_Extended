@@ -3,7 +3,7 @@ class CfgPatches
 	class Black_NVG
 	{
 		units[]={};
-		weapons[]={};
+		weapons[]={"Black_NVGoggles_wide_green","Black_NVGoggles_wide_brown"};
 		fileName="black_nvg.pbo";
 		Version=1.1;
 		requiredVersion=1;
