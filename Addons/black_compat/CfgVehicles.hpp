@@ -1,4 +1,6 @@
 class CfgVehicles {
+  class bw_nh90;
+  class NG90;
   class Helicopter;
   class Helicopter_Base_F: Helicopter
 	{
@@ -43,5 +45,14 @@ class CfgVehicles {
 		{
 			"ropeOriginLeft"
 		};
+  };
+  class bw_nh90: NH90 {
+    forceInGarage = 1;
+    editorPreview = "black_compat\editorpreview\nh90_trans.jpg";
+  };
+  class NH90Armed;
+  class bw_nh90_armed: NH90Armed {
+    forceInGarage = 1;
+    editorPreview = "black_compat\editorpreview\nh90_armed.jpg";
   };
 };
