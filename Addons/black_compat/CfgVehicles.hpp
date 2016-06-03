@@ -1,6 +1,4 @@
 class CfgVehicles {
-  class bw_nh90;
-  class NG90;
   class Helicopter;
   class Helicopter_Base_F: Helicopter
 	{
@@ -35,6 +33,7 @@ class CfgVehicles {
 			class HitGlass6;
 		};
 	};
+  class NH90;
   class NH90: Helicopter_Base_H {
     ace_fastroping_enabled=2;
 		ace_fastroping_friesType="ACE_friesAnchorBar";
@@ -46,6 +45,7 @@ class CfgVehicles {
 			"ropeOriginLeft"
 		};
   };
+  class bw_nh90;
   class bw_nh90: NH90 {
     forceInGarage = 1;
     editorPreview = "black_compat\editorpreview\nh90_trans.jpg";
