@@ -71,23 +71,18 @@ class CfgPatches
 	{
 		units[]={};
 		weapons[]={};
-		requiredVersion="1.48.131645";
+		requiredVersion="1.60";
 		requiredAddons[]=
 		{
 			"BWA3_Units",
 			"BWA3_Common",
 			"A3_Characters_F_BLUFOR"
 		};
-		version="1.4.0";
-		versionStr="1.4.0";
-		versionAr[]={1,4,0};
-		author[]=
-		{
-			"Blackswater"
-		};
-		authorUrl="";
-		versionDesc="badge";
-		versionAct="";
+		version = "1.02";
+    versionStr = "1.02";
+    VersionDesc = "Black_Extended";
+    versionAr[] = {1,02};
+		author = "Blackswater";
 	};
 };
 #include "CfgFunctions.hpp"

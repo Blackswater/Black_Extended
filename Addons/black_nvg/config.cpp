@@ -5,13 +5,16 @@ class CfgPatches
 		units[]={};
 		weapons[]={"Black_NVGoggles_wide_green","Black_NVGoggles_wide_brown"};
 		fileName="black_nvg.pbo";
-		Version=1.1;
-		requiredVersion=1;
-    author[] = {"Blackswater"};
+		requiredVersion= "1.60";
+		version = "1.02";
+    versionStr = "1.02";
+    VersionDesc = "Black_Extended";
+    versionAr[] = {1,02};
 		requiredAddons[]=
 		{
 			"A3_Characters_F_BLUFOR","ace_nightvision"
 		};
+		author = "Blackswater";
 	};
 };
 

@@ -1,7 +1,7 @@
 class CfgMods {
   class mod_base;
   class Black_icon : mod_base {
-    author = "GQRF";
+    author = "Blackswater";
     dir = "Addons";
     picture = "\black_weapons\noreen\hunters.paa";
     logo = "\black_weapons\noreen\hunters.paa";

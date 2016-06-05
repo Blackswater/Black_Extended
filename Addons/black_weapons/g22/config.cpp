@@ -1,11 +1,14 @@
 /*class CfgPatches {
-  class GQRF_G22 {
+  class Black_G22 {
   units[] = {};
   weapons[] = {};
-  requiredVersion = 0.1;
+  requiredVersion = 1.60;
   requiredAddons[] = {"bwa3_weapons","hlcweapons_FHAWCovert"};
-  versionDesc = "GQRF";
-  author[] = {"GQRF"};
+  version = "1.02";
+  versionStr = "1.02";
+  VersionDesc = "Black_Extended";
+  versionAr[] = {1,02};
+  author = "Blackswater";
   };
 };
 
