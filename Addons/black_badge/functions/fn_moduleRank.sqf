@@ -1,14 +1,16 @@
 private ["_logic","_units","_activated"];
+_logic = param [0,objNull,[objNull]];
+_units = param [1,[],[[]]];
+_activated = param [2,true,[true]];
 
-  _logic = [_this,0,objNull,[objNull]] call BIS_fnc_param;
-  _activated = [_this,2,true,[true]] call BIS_fnc_param;
+missionNamespace setVariable ["Set_Target_rank", _logic getVariable "SetTargetRank"];
+missionNamespace setVariable ["Show_Own_display", _logic getVariable "SetOwnDisplay"];
 
-  missionNamespace setVariable ["Black_Rank_1", _logic getVariable "SetTargetRank"];
-  missionNamespace setVariable ["Black_Rank_2", _logic getVariable "SetOwnDisplay"];
 
-  if (_activated) then
-  	{
-  		execVM "\black_badge\functions\init_black_target_rank.sqf";
-  		execVm "\black_badge\functions\init_ownrank.sqf";
 
-  };
+if (missionNamespace getVariable "Set_Target_rank") then {
+  execVM "\black_badge\functions\init_black_target_rank.sqf";
+};
+if (missionNamespace getVariable "Show_Own_display") then {
+  execVM "\black_badge\functions\init_ownrank.sqf";
+};

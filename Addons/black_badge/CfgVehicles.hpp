@@ -14,18 +14,20 @@ class CfgVehicles
 			class AnyBrain;
 		};
 	};
-	class Black_moduleRank: Module_F
+	class Black_Module_Basic: Module_F {
+		author = "Blackswater";
+		category = "Black_Module";
+		isGlobal = 1;
+	};
+	class Black_moduleRank: Black_Module_Basic
 	{
-		author="Blackswater";
-		scope=2;
+		scope = 2;
 		icon="\black_badge\data\rank_init_ca.paa";
 		displayName="$STR_rang_setzen";
-		category="Multiplayer";
 		function="Black_fnc_moduleRank";
-		isGlobal=1;
 		class Arguments
 		{
-			class SetTargetDisplay_blue
+			class SetTargetRank
 			{
 				displayName="$STR_ranks_zeigerang";
 				description="$STR_ranks_zeigerang_des";

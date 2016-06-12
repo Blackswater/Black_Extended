@@ -76,7 +76,8 @@ class CfgPatches
 		{
 			"BWA3_Units",
 			"BWA3_Common",
-			"A3_Characters_F_BLUFOR"
+			"A3_Characters_F_BLUFOR",
+			"A3_Modules_F"
 		};
 		version = "1.02";
     versionStr = "1.02";
@@ -85,6 +86,7 @@ class CfgPatches
 		author = "Blackswater";
 	};
 };
-#include "CfgFunctions.hpp"
-#include "CfgUnitInsignia.hpp"
+#include "CfgFactionClasses.hpp"
 #include "CfgVehicles.hpp"
+#include "CfgUnitInsignia.hpp"
+#include "CfgFunctions.hpp"
