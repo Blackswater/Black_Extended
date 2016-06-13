@@ -1,5 +1,5 @@
 /*class CfgPatches {
-  class Black_G22 {
+  class Black_Weapons_G22 {
   units[] = {};
   weapons[] = {};
   requiredVersion = 1.60;

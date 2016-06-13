@@ -18,10 +18,10 @@ private ['_code', '_function', '_file'];
 }
 
 forEach [
-  ['getNearestLocationName', 'black_cityName\script\getNearestLocationName.sqf'],
-  ['showSurvivalInfo', 'black_cityName\script\showSurvivalInfo.sqf'],
-  ['survivalInfo', 'black_cityName\script\survivalInfo.sqf'],
-  ['process_preInit', 'black_cityName\script\process_preInit.sqf']
+  ['getNearestLocationName', 'black_cityName\functions\getNearestLocationName.sqf'],
+  ['showSurvivalInfo', 'black_cityName\functions\showSurvivalInfo.sqf'],
+  ['survivalInfo', 'black_cityName\functions\survivalInfo.sqf'],
+  ['process_preInit', 'black_cityName\functions\process_preInit.sqf']
 ];
 
 call process_preInit;

@@ -1,5 +1,5 @@
 class CfgPatches {
-  class Black_Weapons {
+  class Black_Weapons_Noreen {
   units[] = {};
   weapons[] = {};
   requiredVersion = 1.60;

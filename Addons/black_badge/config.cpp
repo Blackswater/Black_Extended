@@ -67,7 +67,7 @@ class DestructionEffects;
 
 class CfgPatches
 {
-	class badge
+	class Black_badge
 	{
 		units[]={};
 		weapons[]={};

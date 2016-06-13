@@ -1,16 +1,17 @@
 class CfgPatches
 {
-	class black_cityName
+	class Black_cityName
 	{
 		units[]={};
 		weapons[]={};
 		requiredVersion="1.60";
 		requiredAddons[]=
 		{
-			"A3_Modules_F"
+			"A3_Modules_F",
+			"Black_badge"
 		};
-		version = "1.02";
-    versionStr = "1.02";
+		version = "1.03";
+    versionStr = "1.03";
     VersionDesc = "Black_Extended";
     versionAr[] = {1,02};
 		author = "Blackswater";
