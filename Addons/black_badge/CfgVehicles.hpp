@@ -14,11 +14,7 @@ class CfgVehicles
 			class AnyBrain;
 		};
 	};
-	class Black_Module_Basic: Module_F {
-		author = "Blackswater";
-		category = "Black_Module";
-		isGlobal = 1;
-	};
+	class Black_Module_Basic;
 	class Black_moduleRank: Black_Module_Basic
 	{
 		scope = 2;

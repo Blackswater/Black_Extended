@@ -8,7 +8,7 @@ class CfgPatches
 		requiredAddons[]=
 		{
 			"A3_Modules_F",
-			"Black_badge"
+			"Black_Main"
 		};
 		version = "1.03";
     versionStr = "1.03";
