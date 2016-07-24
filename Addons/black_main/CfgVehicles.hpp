@@ -4,7 +4,7 @@ class CfgVehicles {
     class ArgumentsBaseUntis {};
   };
   class Black_Module_Basic: Module_F {
-		author = "Blackswater";
+		author = "UCYF";
 		category = "Black_Module";
 		isGlobal = 1;
 	};
