@@ -13,7 +13,11 @@ class CfgPatches
     versionStr = "1.02";
     VersionDesc = "UCF_Extended";
     versionAr[] = {1,02};
+<<<<<<< HEAD
 		author = "UCF";
+=======
+		author = "Black";
+>>>>>>> refs/heads/master
 	};
 };
 

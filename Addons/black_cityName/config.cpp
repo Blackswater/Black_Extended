@@ -20,5 +20,8 @@ class CfgPatches
 
 #include "CfgFunctions.hpp"
 #include "CfgVehicles.hpp"
+<<<<<<< HEAD
 
 //
+=======
+>>>>>>> refs/heads/master
