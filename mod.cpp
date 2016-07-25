@@ -1,4 +1,4 @@
-name = "UCYF";
+name = "Blackswater";
 actionName = "Website";
-action ="https://ucyf.neogc.de/";
-picture = "ucyf_logo.paa";
+action ="";
+picture = "hunter.paa";

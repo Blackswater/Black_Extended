@@ -12,9 +12,9 @@ class CfgPatches
 		};
 		version = "1.03";
     versionStr = "1.03";
-    VersionDesc = "UCYF_Extended";
+    VersionDesc = "Black_Extended";
     versionAr[] = {1,02};
-		author = "UCYF";
+		author = "Blackswater";
 	};
 };
 
