@@ -20,14 +20,3 @@ class CfgPatches
 
 #include "CfgFunctions.hpp"
 #include "CfgVehicles.hpp"
-
-/*class CfgFunctions {
-  class Black_cityNameLocations {
-     class scriptStart {
-       class preInit {
-         file = "black_cityName\scriptStart\fn_preInit.sqf";
-         preInit = 1;
-       };
-     };
-   };
- };*/
