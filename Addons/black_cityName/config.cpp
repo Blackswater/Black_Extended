@@ -12,22 +12,11 @@ class CfgPatches
 		};
 		version = "1.03";
     versionStr = "1.03";
-    VersionDesc = "UCYF_Extended";
+    VersionDesc = "Black_Extended";
     versionAr[] = {1,02};
-		author = "UCYF";
+		author = "Blackswater";
 	};
 };
 
 #include "CfgFunctions.hpp"
 #include "CfgVehicles.hpp"
-
-/*class CfgFunctions {
-  class Black_cityNameLocations {
-     class scriptStart {
-       class preInit {
-         file = "black_cityName\scriptStart\fn_preInit.sqf";
-         preInit = 1;
-       };
-     };
-   };
- };*/
